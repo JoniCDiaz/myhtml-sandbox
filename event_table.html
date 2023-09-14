@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+    <title>Product Table</title>
+    <style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+ }
+
+     th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-image: linear-gradient(pink);
+    }
+    tr:nth-child(even) {
+        background-image: linear-gradient(white);
+    }
+    tr:nth-child(odd) {
+        background-image: linear-gradient(pink, white);
+    }
+
+ caption {
+    padding: 15px 0;
+    font-weight: 900;
+    font-size: larger;
+ }
+
+ th {
+    text-transform: uppercase   ;
+ }
+
+ th, td {
+    text-align: center;
+    padding: 15px;
+ }
+ 
+ </style>
+</head>
+<body>
+ <table>
+    <caption> Event Table</caption>
+    <thead>
+        <tr>
+            <th colspan="2">Event Name</th>
+            <th>Date</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>New Years Eve</td>
+            <td>Event Details</td>
+            <td>01/01/2023</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Glitz & Glamor</td>
+            <td>Event Details</td>
+            <td>12/24/2023</td>
+            <td>Asturias</td>
+        </tr>
+        <tr>
+            <td>The Picnic Gala</td>
+            <td>Event Details</td>
+            <td>12/30/2023</td>
+            <td>Two Season Resort</td>
+        </tr>
+    </tbody>
+
+ </table>
+
+</body>
+</html>
